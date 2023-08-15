@@ -1,0 +1,38 @@
+[versions]
+# Plugins
+kotlin = "1.8.22"
+android = "8.1.0"
+versionUpdater = "0.47.0"
+ktlint = "11.5.1"
+mavenRelease = "0.25.3"
+moshiIR = "0.22.1"
+
+# AndroidX libraries
+annotationsLibrary = "1.6.0"
+
+# Third party Libraries
+moshi = "1.15.0"
+timber = "5.0.1"
+
+# Test Libraries
+junit = "4.13.2"
+mockitoKotlin = "2.2.0"
+mockitoCore = "5.4.0"
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "android" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
+mavenRelease = { id = "com.vanniktech.maven.publish", version.ref = "mavenRelease" }
+moshiIR = { id = "dev.zacsweers.moshix", version.ref = "moshiIR"}
+versionUpdater = { id = "com.github.ben-manes.versions", version.ref = "versionUpdater" }
+
+[libraries]
+annotations = { module = "androidx.annotation:annotation", version.ref = "annotationsLibrary" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
+
+kotlinJunit = { module = "org.jetbrains.kotlin:kotlin-test-junit", version.ref = "kotlin" }
+mockitoKotlin = { module = "com.nhaarman.mockitokotlin2:mockito-kotlin", version.ref = "mockitoKotlin" }
+mockitoCore = { module = "org.mockito:mockito-core", version.ref = "mockitoCore" }
+junit = { module = "junit:junit", version.ref = "junit" }
