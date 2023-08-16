@@ -1,7 +1,7 @@
 # Piano Consents SDK for Android
 ![GitHub](https://img.shields.io/github/license/tinypass/piano-consents-android)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/tinypass/piano-consents-android)
-![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/tinypass/piano-consents-android/build.yml?branch=master)
+![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/tinypass/piano-consents-android/build.yml?branch=main)
 
 Welcome to Piano Consents SDK for Android.
 
